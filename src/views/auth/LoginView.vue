@@ -69,7 +69,7 @@ onMounted(async () => {
           <div class="flex justify-center items-center mb-8">
             <div class="text-center">
               <div class="text-5xl font-semibold">
-                Smart School ITB
+                Roof Design
               </div>
               <span class="text-muted-color font-medium"> Войдите чтобы продолжить </span>
             </div>

@@ -29,10 +29,10 @@ const menuItems = [
 const user = authStore?.getUser();
 const model = ref();
 onMounted(() => {
-  if (!authStore.getIsLoggedIn()) {
-    return;
-  }
-  model.value = filterMenu(menuItems);
+  // if (!authStore.getIsLoggedIn()) {
+  //   return;
+  // }
+  model.value = menuItems;
 });
 
 function filterMenu(array) {

@@ -11,6 +11,8 @@ import '@/assets/styles.scss';
 import '@/assets/tailwind.css';
 import CustomPreset from '@/presets/CustomPreset';
 
+import VueKonva from 'vue-konva';
+
 const app = createApp(App);
 
 const locale = {
@@ -97,5 +99,6 @@ app.use(PrimeVue, {
 });
 app.use(ToastService);
 app.use(ConfirmationService);
+app.use(VueKonva);
 
 app.mount('#app');

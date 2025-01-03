@@ -19,7 +19,7 @@ const logout = () => {
         <i class="pi pi-bars"></i>
       </button>
       <router-link to="/" class="layout-topbar-logo">
-        Smart School ITB
+        Roof Design
       </router-link>
     </div>
 

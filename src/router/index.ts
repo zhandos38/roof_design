@@ -21,7 +21,7 @@ const router = createRouter({
           path: '/',
           name: RoutesEnum.HOME,
           component: () => import('@/views/HomeView.vue'),
-          meta: { auth: true }
+          meta: { auth: false }
         },
         {
           path: '/users',
